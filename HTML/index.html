@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
-        <meta charset="UTF-8"/>
-        <meta name="author" content="Patri Srikanth"/>
-        <meta name="description" content="This is a HTML page created for learning HTML"/>
+        <meta charset="UTF-8">
+        <meta name="author" content="Patri Srikanth">
+        <meta name="description" content="This is a HTML page created for learning HTML">
         <link rel="icon" href="./html.png" type="image/x-icon">
         <link rel="stylesheet" type="text/css" href="./style.css">
         <title>HTML Practice</title>
     </head>
     <body>
+        <div id="top"></div>
         <h1>Main Heading</h1>
         <hr>
         <h2>Sub heading</h2>
@@ -61,6 +62,22 @@
                 <dd>Chennai Beach</dd>
             </dl>
             <hr>
+        <h2>Links</h2>
+            <ul>
+                <li>Relative link: <a href="./about.html">About</a> </li>
+                <li>Internal Link: <a href="#top">Go to Top</a></li>
+                <li>Absolute Link: <a href="https://www.google.com" target="_blank">Google</a></li>
+                <li>Download Link: <a href="./html.png" download>Download Logo</a></li>
+                <li>Mail Link: <a href="mailto:random@email.com">Mail Me</a></li>
+                <li>Call Link: <a href="tel:+919876543210">Call me</a></li>
+            </ul>
+        
+
+        <h2>Images</h2>
+        <!-- we should provide height and width of the image to increase the performance of website -->
+        <!-- loading="lazy" means it loads the images which are below the fold lazily  -->
+        <img src="https://images.unsplash.com/photo-1672501426705-072bdfcf358c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1166&q=80" alt="image" title="I am an Image" width="600px" height="350px" loading="lazy">
+
     </body>
 
 </html>
